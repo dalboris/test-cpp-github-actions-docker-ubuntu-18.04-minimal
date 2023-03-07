@@ -5,7 +5,7 @@ on Ubuntu 18.04.
 
 # Prerequisites
 
-1. Create an account on Docker Hub.
+1. Create an account on [Docker Hub](https://hub.docker.com/).
    Below, we'll use `<docker-user>` to refer to your Docker username.
 
 2. Install Docker on your local machine, see: https://docs.docker.com/get-docker/
@@ -13,7 +13,7 @@ on Ubuntu 18.04.
 3. (Optional but recommended) Configure the Docker's credentials store for
    more secure login to Docker Hub. See: https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
-   For example, if your local machine is using Ubuntu, you can for example do something like this:
+   For example, if your local machine is using Ubuntu, you can do something like this:
 
    ```
    # Install GPG and Pass
@@ -65,7 +65,7 @@ Note: `<image>` can be any name of your choice. You can use the same as `<repo>`
 docker run -it <image> /bin/bash
 ```
 
-This brings you to an interactive Bash session, when you can for example type
+This brings you to an interactive Bash session, where you can for example type
 `cmake --version` to check that CMake is correctly installed. Type `exit` to end
 the session.
 
